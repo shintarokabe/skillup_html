@@ -41,6 +41,8 @@ a {
 .main-visual {
   height: 650px;
   background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -57,6 +59,108 @@ a {
   color: #fafafa;
   margin-top: 10px;
   text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.portfolio {
+  width: 950px;
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.portfolio-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #000000;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.portfolio-img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-img-1 {
+  background-image: url(img/sketch.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-img-2 {
+  background-image: url(img/websuku.png);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-img-3 {
+  background-image: url(img/write.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-img-4 {
+  background-image: url(img/webcamp.png);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-img-5 {
+  background-image: url(img/talk.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-img-6 {
+  background-image: url(img/webcamp-mother.png);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 footer {
